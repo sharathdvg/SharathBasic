@@ -1,0 +1,1 @@
+//this is basic js file
