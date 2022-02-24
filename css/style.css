@@ -1,0 +1,33 @@
+*{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+body{
+
+    text-align: center;
+    margin: 30px;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    padding-top:20px ;
+   
+    
+    
+}
+
+
+ .div1{
+     padding: 2vh 0px 10vh 0px;
+ }
+
+
+ 
+  .button1{
+      color: rgb(49, 219, 15);
+      border-radius: 10vh;
+  }
+  .button2{
+    color: rgb(233, 74, 74);
+    border-radius: 10vh;
+  }
