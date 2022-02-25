@@ -1,81 +1,85 @@
 <html>
+
 <head>
-<script type="text/javascript" src="js/basic.js"></script>
-<link rel="stylesheet" href="css/style.css">
-<style>
-ul {list-style-type:none;}
-form{
-  /* background-color: #13232f; */
-  background-image: url('https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_960_720.jpg');
-  box-sizing: content-box;
-}
-</style>
+  <script type="text/javascript" src="js/basic.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    ul {
+      list-style-type: none;
+    }
+
+    form {
+      /* background-color: #13232f; */
+      background-image: url('https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_960_720.jpg');
+      box-sizing: content-box;
+    }
+  </style>
 </head>
- 
-<body> 
-   
+
+<body>
 
 
-<form action="#" name="StudenSignupForm" onsubmit="return(validateHTMlform());">
-    
+
+  <form action="#" name="StudenSignupForm" onsubmit="return(validateHTMlform());">
+
     <h1>Registration Form </h1>
-<div class="div1" cellpadding="2" width="20%" cellspacing="2">
+    <div class="div1" cellpadding="2" width="20%" cellspacing="2">
 
 
-<label for="firstname"> First Name</label><br>
-<input type=text name=textnames id="textname" size="30"><br><br>
- 
-<label for="lastname"> Last Name</label><br>
-<input type=text name=lastnames id="lastname" size="30"><br><br>
+      <label for="firstname"> First Name</label><br>
+      <input type=text name=textnames id="textname" size="30"><br><br>
 
-<label for="father"> Father Name</label><br>
-<input type="text" name="full_father_name" id="fathername"
-size="30"><br><br>
- 
- <label for="Adress">Address</label><br>
- <textarea name="personal_address" id="personaladdress" cols="30" rows="5"></textarea><br><br>
+      <label for="lastname"> Last Name</label><br>
+      <input type=text name=lastnames id="lastname" size="30"><br><br>
+
+      <label for="father"> Father Name</label><br>
+      <input type="text" name="full_father_name" id="fathername" size="30"><br><br>
+
+      <label for="Adress">Address</label><br>
+      <textarea name="personal_address" id="personaladdress" cols="30" rows="5"></textarea><br><br>
 
 
-<label for="gender">Gender</label> <br>
+      <label for="gender">Gender</label> <br>
 
-<input type="radio" name="sex" value="male" size="10">Male
-<input type="radio" name="sex" value="Female" size="10">Female
-<input type="radio" name="sex" value="other" size="10">Other<br><br>
+      <input type="radio" name="sex" value="male" size="10">Male
+      <input type="radio" name="sex" value="Female" size="10">Female
+      <input type="radio" name="sex" value="other" size="10">Other<br><br>
 
- 
-<label for="Course">Course</label>
 
-<select name="Course">
-<option value="-1" selected>select..</option>
-<option value="B.Tech">BE</option>
-<option value="MCA">MCA</option>
-<option value="MBA">MBA</option>
-<option value="BCA">BCA</option>
-</select><br><br>
- <label for="State">State</label><br>
- <input type="text" name="State"><br><br>
- 
-<label for="District">District</label><br>
-<input type="text" name="District"><br><br>
-  
- 
-  
-<label for="PinCode">PinCode</label> <br>
-<input type="text" name="pin_code" id="pincode" size="30"><br><br>
- 
-<label for="student email">student email</label><br>
-<input type="email" name="email_id" id="emailid" size="30"><br><br>
- 
-<label for="Date Of Birth">Date Of Birth</label><br>
-<input type="date" name="date_of_birth" id="dob" size="30"><br><br>
+      <label for="Course">Course</label>
 
-<label for="Mobile Number">Mobile Number</label><br>
-<input type="text" name="mobilenumber" id="mobile_no" size="30"><br><br>
+      <select name="Course">
+        <option value="-1" selected>select..</option>
+        <option value="B.Tech">BE</option>
+        <option value="MCA">MCA</option>
+        <option value="MBA">MBA</option>
+        <option value="BCA">BCA</option>
+      </select><br><br>
+      <label for="State">State</label><br>
+      <input type="text" name="State"><br><br>
 
-<input type="reset" value="Reset" class="button2">
-<input type="submit" class="button1" value="Submit Form">
+      <label for="District">District</label><br>
+      <input type="text" name="District"><br><br>
 
-</div>
-</form>
+
+
+      <label for="PinCode">PinCode</label> <br>
+      <input type="text" name="pin_code" id="pincode" size="30"><br><br>
+
+      <label for="student email">student email</label><br>
+      <input type="email" name="email_id" id="emailid" size="30"><br><br>
+
+      <label for="Date Of Birth">Date Of Birth</label><br>
+      <input type="date" name="date_of_birth" id="dob" size="30"><br><br>
+
+      <label for="Mobile Number">Mobile Number</label><br>
+      <input type="text" name="mobilenumber" id="mobile_no" size="30"><br><br>
+
+      <input type="reset" value="Reset" class="button2">
+      <input type="submit" class="button1" value="Submit Form">
+
+    </div>
+  </form>
 </body>
+
 </html>
